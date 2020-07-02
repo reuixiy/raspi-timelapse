@@ -1,3 +1,14 @@
+English |
+[简体中文](README.zh-cn.md)
+
 # Raspi Timelapse
 
-通过树莓派实现延时摄影，代码分客户端（树莓派）和服务端（笔记本）两部分。
+Shoot beautiful timelapse videos with Raspberry Pi.
+
+Prerequisites:
+
+- Raspberry Pi with a CSI camera
+- Wireless network
+- Laptop/PC
+
+The code includes two parts: cilent (raspberry pi) and server (your laptop).

@@ -3,7 +3,7 @@
 ```sh
 # Install dependency
 sudo apt install python3-pip
-sudo pip3 install bottle -i https://mirrors.aliyun.com/pypi/simple
+sudo pip3 install bottle
 
 # Add service
 sudo ln -s /home/pi/timelapse/systemd/timelapse-image.service /etc/systemd/system/
@@ -19,4 +19,4 @@ sudo systemctl enable/disable timelapse-image.service
 sudo systemctl enable/disable timelapse-server.service
 ```
 
-Full documention on <https://github.com/reuixiy/raspi-timelapse>.
+Full documentation on <https://github.com/reuixiy/raspi-timelapse>.
