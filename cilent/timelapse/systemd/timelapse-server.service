@@ -1,0 +1,11 @@
+[Unit]
+Description=Timelapse Server
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi/timelapse
+ExecStart=/usr/bin/python3 -u index.py
+ExecStop=/usr/bin/pkill -f index.py
+
+[Install]
+WantedBy=multi-user.target

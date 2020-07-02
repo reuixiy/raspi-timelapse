@@ -1,0 +1,11 @@
+[Unit]
+Description=Timelapse Image
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi/timelapse
+ExecStart=/usr/bin/python3 -u image.py
+ExecStop=/usr/bin/pkill -f image.py
+
+[Install]
+WantedBy=multi-user.target

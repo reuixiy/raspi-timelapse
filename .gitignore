@@ -1,0 +1,6 @@
+/server/archives/*
+/server/audios/*
+/server/build/*
+/server/images/processed/*
+/server/images/raw/*
+!.gitkeep
