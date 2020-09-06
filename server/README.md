@@ -1,6 +1,6 @@
 ## Raspi Timelapse (Server)
 
-Prerequisites: python3, ffmpeg, and the [cilent](https://github.com/reuixiy/raspi-timelapse/tree/master/cilent).
+Prerequisites: python3, ffmpeg, and the [client](https://github.com/reuixiy/raspi-timelapse/tree/master/client).
 
 ```sh
 # 1. Get images

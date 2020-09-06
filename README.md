@@ -11,4 +11,4 @@ Prerequisites:
 - Wireless network
 - Laptop/PC
 
-The code includes two parts: cilent (raspberry pi) and server (your laptop).
+The code includes two parts: client (raspberry pi) and server (your laptop).
